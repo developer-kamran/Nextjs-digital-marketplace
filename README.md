@@ -26,4 +26,36 @@ Welcome to the Digital Marketplace! This application allows users to purchase di
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/digital-marketplace.git
+   git clone https://github.com/developer-kamran/Nextjs-digital-marketplace.git
+   
+2. Navigate to the project directory:
+
+   ```bash
+   cd digital-marketplace
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+
+4. Create a .env file in the root directory and add the following environment variables:
+
+   ```bash
+   DATABASE_URL=your_mongodb_uri
+   ADMIN_USERNAME=admin
+   HASHED_ADMIN_PASSWORD=f89Lo5HEh4Tt3lmYidbj8eR6J9s27MBQzJLyWb+sOK+tLGihroBNdwdej7ciUD8+yissEAbub2x7dijLRf/9HQ==
+   STRIPE_SECRET_KEY=your_stripe_secret_key
+   RESEND_API_KEY=your_resend_api_key
+   SENDER_EMAIL=onboarding@resend.dev
+   NEXT_PUBLIC_SERVER_URL=http://localhost:3000
+   NEXT_PUBLIC_STRIPE_PUBLIC_KEY=your_stripe_publishable_key
+
+5. Run database migrations to set up your database schema:
+
+   ```bash
+   npx prisma migrate dev
+
+6. Run the development server:
+
+   ```bash
+   npm run dev
