@@ -59,3 +59,29 @@ Welcome to the Digital Marketplace! This application allows users to purchase di
 
    ```bash
    npm run dev
+
+## Configuration
+
+- **Admin Credentials**: Use the username `admin` and password `admin123` to log in as an admin and *don't change the HASHED_ADMIN_PASSWORD*. 
+- **Database**: Set up your MongoDB connection using `DATABASE_URL` in the `.env` file.
+- **Stripe**: Add your Stripe secret key to the `STRIPE_SECRET_KEY` environment variable.
+- **Resend**: Configure your email settings with `RESEND_API_KEY` and `SENDER_EMAIL`.
+
+## Usage
+
+- **Purchase Products**: Browse and add products to the cart, then proceed to checkout with Stripe.
+- **Order Confirmation**: After payment, you'll be redirected to a success page with download links and receive an order confirmation email.
+- **My Orders**: Access your order history by entering your email on the 'My Orders' page.
+- **Admin Dashboard**: Manage products, view sales, and customer analytics through the admin dashboard. Admins can use the credentials `admin/admin123` to log in.
+
+## Contributing
+
+Feel free to fork the repository and submit pull requests. Please ensure your contributions adhere to the project's coding standards and guidelines.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Contact
+
+For any inquiries or issues, please reach out to [developer.kamraniqbal@gmail.com](mailto:developer.kamraniqbal@gmail.com).
