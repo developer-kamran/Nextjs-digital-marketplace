@@ -62,7 +62,7 @@ Welcome to the Digital Marketplace! This application allows users to purchase di
 
 ## Configuration
 
-- **Admin Credentials**: Use the username `admin` and password `admin123` to log in as an admin and don't change the `HASHED_ADMIN_PASSWORD`. 
+- **Admin Credentials**: Use the username `admin` and password `admin123` to log in as an admin. Do not change the `HASHED_ADMIN_PASSWORD` env variable. 
 - **Database**: Set up your MongoDB connection using `DATABASE_URL` in the `.env` file.
 - **Stripe**: Add your Stripe secret key to the `STRIPE_SECRET_KEY` environment variable.
 - **Resend**: Configure your email settings with `RESEND_API_KEY` and `SENDER_EMAIL`.
