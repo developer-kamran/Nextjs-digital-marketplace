@@ -16,7 +16,7 @@ Welcome to the Digital Marketplace! This application allows users to purchase di
 
 ## Tech Stack
 
-- **Frontend**: Next.js (v14), TailwindCSS
+- **Frontend**: Next.js (v14), TailwindCSS, Shadcn
 - **Backend**: Prisma, MongoDB
 - **Payment Gateway**: Stripe
 - **Email Service**: Resend
